@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛒 Product Admin Dashboard
 
-## Getting Started
+A Frontend Admin Dashboard built with Next.js, React, and Tailwind CSS, where a logged-in user can browse, search, filter, sort, view, add, edit, and delete products using the DummyJSON API. All API calls go through a single shared Axios instance.
 
-First, run the development server:
+---
+## Features 
+- Login with validation, error handling, and protected routes
+- Product list with image, title, category, price, rating and stock
+- Pagination with page numbaers, Previous/Next, and a page-size selector(10/20/50)
+- Filter by category and sort by price, rating, or title
+- Product detail page with images, description, and reviews
+- Add, edit and delete products with form validation and delete confirmation modal
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
+## Tech Stack
+**Frontend :** 
+- Next.js(App Router)
+- React
+- Tailwind CSS
+- Axios(for API calls)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**API :**
+- DummyJSON - products, category, and auth
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
+## Tools Used
+- VS Code for development
+- Git & GitHub for version control
+- Vercel for deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
+## Setup
 
-## Learn More
+1. Clone the repo:
+   git clone https://github.com/rutikajadhav-8/product-admin-dashboard.git
+   cd product-admin-dashboard
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies:
+   npm install
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Run dev server:
+   npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Open http://localhost:3000 and log in with:
+   -- Username : emilys
+   -- Password : emilyspass
 
-## Deploy on Vercel
+---
+## Live Demo
+- Live app: https://product-admin-dashboard-theta-woad.vercel.app
+- Git Repo: https://github.com/rutikajadhav-8/product-admin-dashboard
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
+## Screenshots:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Login Page:
+![Login Page](./screenshots/login.png)
+  
+- Product List Page:
+![Product List Page - 1](./screenshots/product-list.png)
+
+![product List Page - 2](./screenshots/product-list2.png)
+
+- Product Detail Page:
+![Product Detail Page](./screenshots/product-detail.png)
+
+- Add Product Page:
+![Add Product Page](./screenshots/add-product.png)
+
+- Edit Product Page:
+![Edit Product Page](./screenshots/edit-product.png)
+
+- Delete Confirmation Modal:
+![Delete Confirmation Modal](./screenshots/delete.png)
