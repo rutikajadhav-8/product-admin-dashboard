@@ -32,8 +32,9 @@ A Frontend Admin Dashboard built with Next.js, React, and Tailwind CSS, where a 
 ## Setup
 
 1. Clone the repo:
-   git clone https://github.com/rutikajadhav-8/product-admin-dashboard.git
-   cd product-admin-dashboard
+ ```bash
+ git clone https://github.com/rutikajadhav-8/product-admin-dashboard.git
+ cd product-admin-dashboard
 
 2. Install dependencies:
    npm install
@@ -42,9 +43,9 @@ A Frontend Admin Dashboard built with Next.js, React, and Tailwind CSS, where a 
    npm run dev
 
 4. Open http://localhost:3000 and log in with:
-   -- Username : emilys
-   -- Password : emilyspass
-
+   Username : emilys
+   Password : emilyspass
+```
 ---
 ## Live Demo
 - Live app: https://product-admin-dashboard-theta-woad.vercel.app
@@ -53,22 +54,28 @@ A Frontend Admin Dashboard built with Next.js, React, and Tailwind CSS, where a 
 ---
 ## Screenshots:
 
-- Login Page:
+- **Login Page:**
+
 ![Login Page](./screenshots/login.png)
   
-- Product List Page:
+- **Product List Page:**
+
 ![Product List Page - 1](./screenshots/product-list.png)
 
 ![product List Page - 2](./screenshots/product-list2.png)
 
-- Product Detail Page:
+- **Product Detail Page:**
+
 ![Product Detail Page](./screenshots/product-detail.png)
 
-- Add Product Page:
+- **Add Product Page:**
+
 ![Add Product Page](./screenshots/add-product.png)
 
-- Edit Product Page:
+- **Edit Product Page:**
+
 ![Edit Product Page](./screenshots/edit-product.png)
 
-- Delete Confirmation Modal:
+- **Delete Confirmation Modal:**
+
 ![Delete Confirmation Modal](./screenshots/delete.png)
