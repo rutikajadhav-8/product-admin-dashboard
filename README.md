@@ -33,16 +33,20 @@ A Frontend Admin Dashboard built with Next.js, React, and Tailwind CSS, where a 
 
 1. Clone the repo:
  ```bash
- git clone https://github.com/rutikajadhav-8/product-admin-dashboard.git
- cd product-admin-dashboard
-
+  git clone https://github.com/rutikajadhav-8/product-admin-dashboard.git
+  cd product-admin-dashboard
+```
 2. Install dependencies:
+```bash
    npm install
-
+```
 3. Run dev server:
+```bash
    npm run dev
+```
 
 4. Open http://localhost:3000 and log in with:
+```bash
    Username : emilys
    Password : emilyspass
 ```
